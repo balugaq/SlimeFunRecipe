@@ -370,5 +370,35 @@
             <version>2.5.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- 本地lib目录下的jar包，使用system scope引入 -->
+        <dependency>
+            <groupId>exoticgarden</groupId>
+            <artifactId>ExoticGarden</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/ExoticGarden-Build 19 (git 0994db4).jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>flowerpower</groupId>
+            <artifactId>FlowerPower</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/FlowerPower-Build 8 (git 1e40794).jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>infinityexpansion</groupId>
+            <artifactId>InfinityExpansion</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/InfinityExpansion-Build 16 (git 850718f) (1).jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>transcendence</groupId>
+            <artifactId>TranscEndence</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/TranscEndence-Build 11 (git 2352ccc) (1).jar</systemPath>
+        </dependency>
     </dependencies>
 </project>
